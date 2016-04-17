@@ -155,11 +155,12 @@ form textarea{
 .btn-primary{margin-top:20px; float:right}
 
 .index h1{
-          background: url("/assets/3711_computerscience-banner-final.jpg");
+          background: url("../assets/3711_computerscience-banner-final.jpg");
           padding: 100px;
           border-bottom:2px solid #ccc;
     color:#8bc2f2;
 }
+
 
 .index p, .index h2{
     padding-left:3%;
