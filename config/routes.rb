@@ -1,5 +1,11 @@
 Rails.application.routes.draw do
     root 'welcome#index'
+    
+    get "/resume" => "resume#resume"
+    get "/contact" => "contact#contact"
+    get "/confirmation" => "contact#confirmation"
+    get "/portfolio" => "portfolio#portfolio"
+    
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
