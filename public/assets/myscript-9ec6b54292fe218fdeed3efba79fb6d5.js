@@ -1,0 +1,1 @@
+$(document).ready(function(){$(".gallery").lightGallery({thumbnail:!0,animateThumb:!1,showThumbByDefault:!1})});
