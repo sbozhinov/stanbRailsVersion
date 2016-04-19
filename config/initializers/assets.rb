@@ -9,3 +9,5 @@ Rails.application.config.assets.version = '1.0'
 Rails.application.config.assets.precompile += %w( styles.css )
 Rails.application.config.assets.precompile += %w( myscript.js )
 Rails.application.config.assets.precompile += %w( lightgallery.css )
+Rails.application.config.assets.precompile += %w( bootstrap.min.css )
+Rails.application.config.assets.precompile += %w( font-awesome.min.css )
