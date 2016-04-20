@@ -2,7 +2,7 @@ h2,
 h3,
 p {
     margin: 0;
-    font-size: 1.1em;
+    font-size: 1.2em;
 }
 
 
@@ -17,6 +17,7 @@ body {
 
 body {
     display: inline;
+        font-family: 'Droid Sans', sans-serif;
 }
 
 
@@ -70,7 +71,7 @@ body {
 
 
 .wrap {
-    background: #0c4755;
+  background:url("<%= asset_path("stardust.png") %>") ;
     color: #FBFFD7;
     padding-top: 100px;
     min-height: 100%;
@@ -79,12 +80,10 @@ body {
     padding-bottom: 30px;
     padding-left: 3%;
     padding-right: 3%;
-    box-shadow: 0 0 5px #000;
 }
 
 .wrap h1 {
        color: #8bc2f2;
-    font-family: 'Droid Sans', sans-serif;
 }
 
 .wrap ul {
@@ -114,7 +113,7 @@ input[type="submit"] {
     width: 20%;
     height: 20%;
     float: right;
-    margin-top: 50px;
+    margin-top: 70px;
     margin-right: 10%;
     min-height: 100px;
     min-width: 100px;
@@ -131,14 +130,14 @@ input[type="submit"] {
     width: 300px;
     height: 200px;
     float: left;
-    border: 5px solid #bbb;
+    border: 1px solid #bbb;
     margin: 5px;
     box-shadow: 5px 5px 10px rgba(64, 65, 72, .2);
     opacity: 0.85;
 }
 
 .gallery img:hover {
-    border: 5px solid #6082B5;
+    border: 1px solid #6082B5;
     transition: border-color ease-in .2s;
     opacity: 1;
 }
@@ -170,6 +169,9 @@ form textarea {
     width: 100%;
     color:black;
 }
+.contact a:hover{
+  color:#8bc2f2;
+}
 
 .btn-primary {
     margin-top: 20px;
@@ -177,7 +179,7 @@ form textarea {
 }
 
 .index h1 {
-    background: url("<%= asset_path("3711_computerscience-banner-final.jpg") %>");
+    background:url("<%= asset_path("3711_computerscience-banner-final.jpg") %>") ;
     padding: 100px;
 
 }
@@ -206,6 +208,7 @@ form textarea {
 
 .bio h4 {
     padding-top: 5px;
+    font-weight:bold;
 }
 
 /* footer */
