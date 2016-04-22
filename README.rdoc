@@ -12,4 +12,4 @@
 
 * Standard heroku toolbelt
 
-
+Currently it is hosted on heroku:[http://stanb.herokuapp.com/](http://stanb.herokuapp.com/) and I've also made another kind of similar copy on AWS http://stan.mkivimrk3p.us-west-2.elasticbeanstalk.com/
